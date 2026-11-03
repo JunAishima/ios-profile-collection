@@ -1,6 +1,5 @@
 import os
-from bluesky.callbacks.buffer import BufferingWrapper
-from bluesky_tiled_plugins import TiledInserter
+from bluesky_tiled_plugins import BufferingWrapper, TiledInserter
 os.environ['QT_API'] = 'pyqt5'
 from ophyd.signal import EpicsSignalBase
 from tiled.client import from_profile
